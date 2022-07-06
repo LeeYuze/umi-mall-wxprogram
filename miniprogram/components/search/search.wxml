@@ -1,0 +1,7 @@
+<view class="u-search">
+    <u-icon icon="sousuo"></u-icon>
+    <input class="u-search__inner" bindinput="bindinput" placeholder="{{placeholder}}" />
+    <button class="u-search__button" bindtap="bindtap">
+        搜索
+    </button>
+</view>

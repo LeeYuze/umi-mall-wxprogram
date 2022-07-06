@@ -1,0 +1,7 @@
+<view class="u-category">
+    <mp-row>
+        <mp-col wx:for="{{data}}" wx:key="index" span="{{6}}">
+            <u-category-item picUrl="{{item.picUrl}}" text="{{item.text}}"></u-category-item>
+        </mp-col>
+    </mp-row>
+</view>

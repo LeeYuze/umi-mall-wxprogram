@@ -1,0 +1,7 @@
+// create _config.scss to fix miniprogram don't hook global scss.
+
+// config
+@import "./scss/common/var.scss";
+@import "./scss/mixins/config.scss";
+@import "./mixins/function.scss";
+@import "./scss/mixins/mixins.scss";

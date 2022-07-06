@@ -1,0 +1,15 @@
+@import "../../scss/config";
+@include b(category-item) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include e(image) {
+        width: 80rpx;
+        height: 80rpx;
+    }
+    @include e(text) {
+        margin-top: 10rpx;
+        font-size: 24rpx;
+    }
+} 

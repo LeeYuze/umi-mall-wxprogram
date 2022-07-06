@@ -1,0 +1,17 @@
+<view class="container">
+    <!-- 搜索框 -->
+    <u-search model:value="{{searchValue}}" bind:submit="searchOnSubmitHandle"></u-search>
+    <!-- banner -->
+    <u-banner class="u-banner" data="{{bannerList}}"></u-banner>
+    <!-- 分类区域 -->
+    <u-category class="category" data="{{categoryList}}"></u-category>
+    <!-- 分类tab -->
+    <t-sticky>
+        <t-tabs defaultValue="{{0}}" bind:change="">
+            <t-tab-panel wx:for="{{tabsList}}" wx:key="index" label="{{item.label}}" value="{{item.value}}" />
+        </t-tabs>
+    </t-sticky>
+    <!-- 商品列表区域 -->
+    <goods-list class="goods-list" goodsList="{{goodsList}}">
+    </goods-list>
+</view>

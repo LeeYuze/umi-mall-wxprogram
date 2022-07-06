@@ -1,0 +1,4 @@
+<view class="u-category-item">
+    <image class="u-category-item__image" src="{{picUrl}}"></image>
+    <text class="u-category-item__text">{{text}}</text>
+</view>

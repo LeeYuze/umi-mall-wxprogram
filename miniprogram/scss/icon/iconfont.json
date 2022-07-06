@@ -1,0 +1,16 @@
+{
+  "id": "3502705",
+  "name": "优米商城-微信小程序",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1304890",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    }
+  ]
+}

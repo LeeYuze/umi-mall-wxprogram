@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3502705 */
+  src: url('/scss/icon/iconfont.woff2?t=1657036342171') format('woff2'),
+       url('/scss/icon/iconfont.woff?t=1657036342171') format('woff'),
+       url('/scss/icon/iconfont.ttf?t=1657036342171') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sousuo:before {
+  content: "\e622";
+}
+

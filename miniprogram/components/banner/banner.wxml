@@ -1,0 +1,10 @@
+<view class="u-banner">
+    <t-swiper class="t-swiper" autoplay="{{true}}" duration="{{500}}" interval="{{5000}}">
+        <t-swiper-item wx:for="{{data}}" wx:key="index">
+            <view class="item {{item.cls}}">
+                <image src="{{item.image}}" class="img" mode="aspectFill" />
+            </view>
+        </t-swiper-item>
+        <t-swiper-nav slot="nav" type="fraction" />
+    </t-swiper>
+</view>

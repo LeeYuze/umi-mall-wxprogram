@@ -1,0 +1,21 @@
+@import "./var.scss";
+
+// 重制自带的样式
+button {
+    &:after {
+        border: none;
+    }
+}
+
+// 覆盖部分 t-tabs 组件
+.t-tabs__track  {
+    background-color: $--color-danger !important;
+}
+
+.t-tabs .t-is-active {
+    color: $--color-danger !important;
+}
+
+.t-tabs.t-tabs--top .t-tabs__scroll {
+    border-bottom: none !important;
+}

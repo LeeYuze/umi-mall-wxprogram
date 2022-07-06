@@ -1,0 +1,8 @@
+{
+    "component": true,
+    "usingComponents": {
+        "u-category-item":"../category-item/category-item",
+        "mp-col": "@miniprogram-component-plus/col",
+        "mp-row": "@miniprogram-component-plus/row"
+    }
+}

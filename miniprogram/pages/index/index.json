@@ -1,0 +1,12 @@
+{
+    "usingComponents": {
+        "u-search": "../../components/search/search",
+        "u-category": "../../components/category/category",
+        "t-tabs": "tdesign-miniprogram/tabs/tabs",
+        "t-tab-panel": "tdesign-miniprogram/tabs/tab-panel",
+        "t-sticky": "tdesign-miniprogram/sticky/sticky",
+        "goods-list":"../../components/goods-list/index",
+        "u-banner":"../../components/banner/banner"
+    },
+    "navigationBarTitleText": "优米家具商城"
+}
