@@ -9,7 +9,6 @@ Component({
       },
     },
   },
-
   methods: {
     onChange(event) {
       this.setData({ active: event.detail.value });
@@ -18,6 +17,7 @@ Component({
           ? this.data.list[event.detail.value].url
           : `/${this.data.list[event.detail.value].url}`,
       });
+      this.init()
     },
 
     init() {
