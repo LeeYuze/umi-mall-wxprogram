@@ -2,7 +2,7 @@ export default [
   {
     icon: 'home',
     text: '首页',
-    url: 'pages/home/home',
+    url: 'pages/index/index',
   },
   {
     icon: 'sort',

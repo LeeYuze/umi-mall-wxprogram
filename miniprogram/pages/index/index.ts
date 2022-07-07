@@ -67,6 +67,34 @@ Page({
                 title: "升级粒子更舒适，日式和风懒人沙发",
                 price: 439,
                 originPrice: 599
+            },
+            {
+                spuId: 2,
+                thumb: "https://yanxuan-item.nosdn.127.net/42f17bbc53aec6ec90ace54ad271329f.png?type=webp&quality=95&thumbnail=245x245&imageView",
+                title: "升级粒子更舒适，日式和风懒人沙发",
+                price: 439,
+                originPrice: 599
+            },
+            {
+                spuId: 1,
+                thumb: "https://yanxuan-item.nosdn.127.net/ff82bfbf456eb739ee3ace4c18137856.png?type=webp&quality=95&thumbnail=245x245&imageView",
+                title: "趣凡·真皮电动功能沙发",
+                price: 4499,
+                originPrice: 4899
+            },
+            {
+                spuId: 1,
+                thumb: "https://yanxuan-item.nosdn.127.net/ff82bfbf456eb739ee3ace4c18137856.png?type=webp&quality=95&thumbnail=245x245&imageView",
+                title: "趣凡·真皮电动功能沙发",
+                price: 4499,
+                originPrice: 4899
+            },
+            {
+                spuId: 2,
+                thumb: "https://yanxuan-item.nosdn.127.net/42f17bbc53aec6ec90ace54ad271329f.png?type=webp&quality=95&thumbnail=245x245&imageView",
+                title: "升级粒子更舒适，日式和风懒人沙发",
+                price: 439,
+                originPrice: 599
             }
         ]
     },
@@ -83,5 +111,19 @@ Page({
      */
     onPullDownRefresh() {
         wx.stopPullDownRefresh()
+    },
+    onClickGoodsThumb(e: any) {
+        wx.navigateTo(
+          {
+            url:"/pages/goods/detail/index"
+          }
+        )
+    },
+    onClickGoods(e: any) {
+      wx.navigateTo(
+        {
+          url:"/pages/goods/detail/index"
+        }
+      )
     }
 })

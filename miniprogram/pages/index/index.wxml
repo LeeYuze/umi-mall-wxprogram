@@ -12,6 +12,6 @@
         </t-tabs>
     </t-sticky>
     <!-- 商品列表区域 -->
-    <goods-list class="goods-list" goodsList="{{goodsList}}">
+    <goods-list class="goods-list" goodsList="{{goodsList}}" bind:thumb="onClickGoodsThumb" bind:click="onClickGoods">
     </goods-list>
 </view>

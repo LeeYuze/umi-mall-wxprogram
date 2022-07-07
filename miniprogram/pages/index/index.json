@@ -6,7 +6,8 @@
         "t-tab-panel": "tdesign-miniprogram/tabs/tab-panel",
         "t-sticky": "tdesign-miniprogram/sticky/sticky",
         "goods-list":"../../components/goods-list/index",
-        "u-banner":"../../components/banner/banner"
+        "u-banner":"../../components/banner/banner",
+        "t-back-top": "tdesign-miniprogram/back-top/back-top"
     },
     "navigationBarTitleText": "优米家具商城"
 }

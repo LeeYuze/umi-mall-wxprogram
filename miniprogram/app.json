@@ -1,7 +1,8 @@
 {
     "pages": [
         "pages/index/index",
-        "pages/detail/detail"
+        "pages/goods/detail/index",
+        "pages/goods/category/index"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -21,8 +22,8 @@
                 "text": "首页"
             },
             {
-                "pagePath": "pages/detail/detail",
-                "text": "详情页"
+                "pagePath": "pages/goods/category/index",
+                "text": "分类"
             }
         ]
     },
